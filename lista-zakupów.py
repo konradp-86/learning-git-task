@@ -13,3 +13,11 @@ print("\n" * 3)
 name_list = ["John", "Michael", "Terry", "Eric", "Graham"]
 name_dictionary = {name: len(name) for name in name_list}
 print("Lista Imion:", name_dictionary)
+print("\n" * 3)
+def print_gwiazdka(lines):
+    gwiazdka = 2
+    for i in range(1, lines + 1):
+        print('*' * gwiazdka)
+        if i % 2 == 0:
+            gwiazdka += 2
+print_gwiazdka(6)
