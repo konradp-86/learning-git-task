@@ -21,3 +21,5 @@ def print_gwiazdka(lines):
         if i % 2 == 0:
             gwiazdka += 2
 print_gwiazdka(6)
+
+print("Witaj Mentorze :)")
